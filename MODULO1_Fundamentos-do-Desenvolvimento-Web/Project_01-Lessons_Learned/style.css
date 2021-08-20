@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  color: rgb(2, 2, 58);
+}
+#cabecalho {
+  position: fixed;
+  top: 0;
+  background-color: teal;
+  padding: 10px;
+  width: 1366px;
+}
+#titulo {
+  text-align: center;
+}
+#minha_foto {
+  width: 150px;
+  border-radius: 15%;
+  display: block;
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.lists {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.list-licoes {
+  display: inline-block;
+}
+p {
+  line-height: 120%;
+}
+.text {
+  display: inline-block;
+  margin: 50px 0px 50px 0px;
+}
+.lado-esquerdo {
+  max-width: 60%;
+  float: left;
+}
+.lado-direito {
+  max-width: 30%;
+  float: right;
+}
+
+#rodape {
+  text-align: center;
+  font-size: 10px;
+  margin-top: 50px;
+}
