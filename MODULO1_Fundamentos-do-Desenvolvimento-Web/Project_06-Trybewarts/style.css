@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+body {
+  background-image: url('sky.jpg');
+  background-size: cover;
+  color: rgb(194, 182, 165);
+}
+
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 0 4px rgb(45, 79, 72);
+}
+
+#logar {
+  width: 100px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: rgb(211, 66, 47);
+  margin-left: 2px;
+}
+
+.header-inputs {
+  flex-direction: column;
+  margin-left: 2%;
+}
+
+.trybewarts-header-logo {
+  justify-content: left;
+  width: 80px;
+}
+
+#trybewarts-header-title {
+  color: white;
+  font-size: 4em;
+  align-self: center;
+  font-family: Della Respira, serif;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: center;
+}
+
+#login {
+  margin-left: 20px;
+}
+
+main {
+  display: flex;
+  padding-left: 5%;
+  font-size: 1.2em;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.div-inputs {
+  display: flex;
+  margin-top: 5%;
+}
+
+.div-second {
+  display: flex;
+}
+
+#label-rate {
+  opacity: none;
+}
+
+.div-label-rate {
+  display: flex;
+  opacity: 0.7;
+}
+
+#submit-btn {
+  width: 90px;
+  height: 50px;
+  justify-content: flex-end;
+  border-radius: 5px;
+  background-color: rgb(50, 167, 145);
+  color: black;
+  font-weight: 900;
+  margin: 20px 0;
+  box-shadow: 3px 3px rgb(45, 79, 72);
+}
+
+#submit-btn:hover {
+  font-size: 20px;
+  background-color: rgb(108, 157, 148);
+}
+
+.materias {
+  display: flex;
+  width: 300px;
+  padding-left: 20%;
+  margin-left: 20%;
+}
+
+.subject {
+  justify-content: space-between;
+  opacity: 0.7;
+}
+
+.deixe-seu-comentario {
+  margin-bottom: 50px;
+  padding: 50px;
+}
+
+.textarea {
+  opacity: 0.7;
+  font-weight: 900;
+}
+
+#textarea {
+  border-radius: 6px;
+}
+
+#label-family {
+  margin-top: 20px;
+}
+
+.label-family-input {
+  opacity: 0.7;
+}
+
+#div-materias {
+  margin: 40px 0 30px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: medium;
+  font-style: italic;
+}
+
+input {
+  border-radius: 5px;
+  height: 30px;
+  width: auto;
+  margin: 5px;
+}
