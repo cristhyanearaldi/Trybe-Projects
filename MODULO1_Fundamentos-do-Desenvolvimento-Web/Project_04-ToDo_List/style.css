@@ -1,0 +1,33 @@
+#titulo {
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+#funcionamento {
+  margin-top: 50px;
+}
+
+.clicked {
+  background-color: rgb(128 , 128 , 128);
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+main {
+  background-color: rgb(120, 172, 152);
+  padding: 50px 50px 100px 50px;
+  border-radius: 25px;
+  border: 3px solid rgb(3, 85, 80);
+}
+
+#criar-tarefa {
+  background-color:rgb(220, 148, 148);
+}
+
+#remover-selecionado, #remover-finalizados, #apaga-tudo {
+  background-color: rgb(181, 252, 221);
+}
