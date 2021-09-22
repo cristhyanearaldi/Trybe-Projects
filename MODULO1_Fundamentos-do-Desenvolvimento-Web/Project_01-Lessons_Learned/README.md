@@ -1,4 +1,4 @@
-## Requisitos
+## Requisitos do Projeto
 
   - [Lista de requisitos](#lista-de-requisitos)
     - [1. Adicione uma cor de fundo específica para a página](#1-adicione-uma-cor-de-fundo-específica-para-a-página)
@@ -18,7 +18,7 @@
     - [14. Altere atributos relacionados as fontes](#14-altere-atributos-relacionados-as-fontes)
     - [15. Posicione o seu artigo e a seção sobre aprendizados um ao lado do outro](#15-posicione-o-seu-artigo-e-a-seção-sobre-aprendizados-um-ao-lado-do-outro)
 
-### Lista de requisitos
+### Requisitos Obrigatórios
 
 ### 1. Adicione uma cor de fundo específica para a página
 
@@ -64,7 +64,7 @@ Para tornar o seu site mais acessível e melhorar seu ranqueamento em mecanismos
 
 Teste a semântica da sua página está aprovada pelo site CodeSniffer
 
-### BÔNUS
+### Requisitos Bônus
 
 ### 12. Adicione uma tabela à página
 
