@@ -17,9 +17,6 @@
     - [11 - Crie uma função de Número de telefone](#11---crie-uma-função-de-número-de-telefone)
     - [12 - Crie uma função de Condição de existência de um triângulo](#12---crie-uma-função-de-condição-de-existência-de-um-triângulo)
     - [13 - Crie uma função de Boas Vindas ao Bar da Trybe!](#13---crie-uma-função-de-boas-vindas-ao-bar-da-trybe!)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos Finais](#avisos-finais)
 
 
 ## * Requisitos obrigatórios
