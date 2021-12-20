@@ -1,14 +1,14 @@
 Este repositório apresenta os projetos desenvolvidos durante o curso na Trybe.
 
-TRYBE
+## TRYBE
 
 "A Trybe é uma escola de desenvolvimento web que tem comprometimento genuíno com o sucesso profissional das pessoas estudantes. São mais de 1500 horas de formação que aborda fundamentos de desenvolvimento web, desenvolvimento, Front-end, Back-end, ciência da computação, metodologias ágeis e habilidades comportamentais."
 
 
-PROGRAMA DE FORMAÇÃO
+### PROGRAMA DE FORMAÇÃO
 
 
-MÓDULO 1: Fundamentos do Desenvolvimento Web:
+#### MÓDULO 1: Fundamentos do Desenvolvimento Web:
 
 - Bloco 01: Unix & Bash
 - Bloco 02: Git, GitHub e Internet
@@ -22,7 +22,7 @@ MÓDULO 1: Fundamentos do Desenvolvimento Web:
 - Bloco 10: Testes automatizados com Jest
 
 
-MÓDULO 2: Desenvolvimento Front-end:
+#### MÓDULO 2: Desenvolvimento Front-end:
 
 - Bloco 11: Introdução à React
 - Bloco 12: Componentes com Estado, Eventos e Formulários com React
@@ -35,28 +35,29 @@ MÓDULO 2: Desenvolvimento Front-end:
 - Bloco 19: Projeto App de Receitas
 
 
-MÓDULO 3: Desenvolvimento Back-end:
+#### MÓDULO 3: Desenvolvimento Back-end:
 
-- Bloco 20: Introdução à SQL
-- Bloco 21: Funções SQL, Joins e Subqueries
-- Bloco 22: Normalização e Modelagem de Banco de Dados
-- Bloco 23: Introdução ao MongoDB
-- Bloco 24: MongoDB: Updates Simples e Complexos
-- Bloco 25: MongoDB: Aggregation Framework
-- Bloco 26: Introdução ao desenvolvimento Web com NodeJS
-- Bloco 27: NodeJS: Camada de Seviço e Arquitetura Rest e Restful
-- Bloco 28: Autenticação e Upload de Arquivos
-- Bloco 29: Deployment
-- Bloco 30: Arquitetura: SOLID e ORM
-- Bloco 31: Sockets
-- Bloco 32: Projeto Trybeer
+- Bloco 20: Docker: Utilizando Containers
+- Bloco 21: Introdução à SQL
+- Bloco 22: Funções SQL, JOINs e Normalização
+- Bloco 23: Introdução ao desenvolvimento Web com Node.js
+- Bloco 24: Node.js: Camada de Serviço e Arquitetura Rest e Restful
+- Bloco 25: Node.js: ORM e Autenticação
+- Bloco 26: Deployment
+- Bloco 27: TypeScript
+- Bloco 28: Programação Orientada a Objetos (POO) e SOLID
+- Bloco 29: Projeto - TFC - Trybe Futebol Clube
+- Bloco 30: Introdução ao MongoDB
+- Bloco 31: MongoDB: Updates Simples e Complexos
+- Bloco 32: MasterClass - VPS, CI/CD
+- Bloco 33: Projeto - App de Delivery
 
 
-MÓDULO 4: Introdução à Ciência da Computação:
+#### MÓDULO 4: Ciência da Computação:
 
-- Bloco 33: Arquitetura de computadores e Redes
-- Bloco 34: Introdução à Python e Raspagem de Ddaos da Web
+- Bloco 34: Introdução à Python
 - Bloco 35: Programação Orientada a Objetos e Padrões de Projeto
-- Bloco 36: Algoritmos e Estrutura de Dados
-- Bloco 37: Estrutura de Dados: Hash e Set
-- Bloco 38: Estrutura de Dados: Pilhas, Filas e Listas
+- Bloco 36: Redes e Raspagem de Dados
+- Bloco 37: Algoritmos
+- Bloco 38: Estrutura de Dados I: Arrays, Hashmaps e Sets
+- Bloco 39: Estrutura de Dados II: Listas, Filas e Pilhas
