@@ -1,0 +1,142 @@
+body {
+  background-color: #303030;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.movie-card-header {
+  align-items: center;
+  background-color: rgb(12, 11, 11);
+  border-bottom: black solid 4px;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.page-title {
+  color: #e50914;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.movie-list {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding: 48px 30px;
+}
+
+.movie-card {
+  background-color: #303030;
+  border: 1px solid rgba(0, 0, 0, 0.597);
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  height: 450px;
+  margin: 5px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.movie-card:hover {
+  box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.72);
+}
+
+.movie-card-image {
+  width: 100%;
+}
+
+.movie-card-body {
+  flex: 1 1 auto;
+  padding: 20px;
+}
+
+.movie-card-title {
+  color: rgb(194, 190, 190);
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 12px;
+  text-align: center;
+}
+
+.movie-card-subtitle {
+  color: rgb(133, 133, 133);
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 8px;
+  text-align: end;
+}
+
+.movie-card-storyline {
+  color: blanchedalmond;
+  font-size: 14px;
+  text-align: justify;
+}
+
+.rating {
+  background-color: #e50914;
+  border-radius: 25px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 3px 9px;
+}
+
+.movie-card-rating {
+  background-color: rgba(0, 0, 0, 0.426);
+  border-top: 1px solid rgba(0, 0, 0, 0.597);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.watch {
+  color: blanchedalmond;
+  font-size: 13px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.watch:hover {
+  font-size: 14px;
+}
+
+.search-bar-form {
+  color: blanchedalmond;
+  display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.input-config {
+  margin: 0 0 10px 8px;
+}
+
+.add-movie-form {
+  color: blanchedalmond;
+  display: flex;
+  flex-wrap: wrap;
+  font-style: italic;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.btn-add-movie {
+  background-color: #e50914;
+  border: 2px solid rgba(0, 0, 0, 0.597);
+  border-radius: 5px;
+  color: blanchedalmond;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 3px 9px;
+}
+
+.btn-add-movie:hover {
+  box-shadow: 1px 1px 4px 4px rgba(0, 0, 0, 0.72);
+}
