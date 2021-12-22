@@ -52,12 +52,6 @@ Neste projeto foi criado o TrybeTunes, uma aplicação capaz de reproduzir músi
 
   - [10. Crie a lista de músicas favoritas](#10-crie-a-lista-de-músicas-favoritas)
 
-- [Requisitos bônus](#requisitos-bônus)
-
-  - [11. Crie a exibição de perfil](#11-crie-a-exibição-de-perfil)
-
-  - [12. Crie o formulário de edição de perfil](#12-crie-o-formulário-de-edição-de-perfil)
-
 
 ---
 
