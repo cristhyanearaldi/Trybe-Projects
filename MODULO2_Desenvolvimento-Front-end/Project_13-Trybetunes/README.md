@@ -76,6 +76,7 @@ Você deve utilizar o `BrowserRouter` pra criar as rotas da sua aplicação e ca
 
 
 #### 2. Crie um formulário para identificação
+
 Dentro do componente `Login`, que é renderizado na rota `/`, crie um formulário para que a pessoa usuária se identifique com um nome.
   
   * Você deve criar um campo para que a pessoa usuária insira seu nome. Este campo deverá ter o atributo `data-testid="login-name-input"`.
@@ -96,6 +97,7 @@ Dentro do componente `Login`, que é renderizado na rota `/`, crie um formulári
 
     
 #### 3. Crie um componente de cabeçalho
+
 Crie um componente chamado `Header`, dentro da pasta `src/components`.
 
   * Crie esse componente com a tag `header` envolvendo todo seu conteúdo e com o atributo `data-testid="header-component"`;
@@ -150,6 +152,7 @@ Crie um componente chamado `Header`, dentro da pasta `src/components`.
   - Será validado se a navegação entre a página de edição do perfil e a página de exibição do perfil ocorre corretamente.
 
 #### 5. Crie o formulário para pesquisar artistas
+
 Este formulário deve conter um input e um botão para que seja possível pesquisar os álbums de uma banda ou artista. Crie o formulário dentro do componente `Search`, que é renderizado na rota `/search`.
     
   * Crie um campo para pessoa digitar o nome da banda ou artista a ser pesquisada. Esse campo deve ter o atributo `data-testid="search-artist-input"`.
@@ -160,6 +163,7 @@ Este formulário deve conter um input e um botão para que seja possível pesqui
 
 
 #### 6. Faça a requisição para pesquisar artistas
+
 Com a estrutura da tela de pesquisa criada, agora é hora de fazer uma requisição e receber a lista de álbums da banda ou artista pesquisada.
 
   * Ao clicar no botão de `Pesquisar`, limpe o valor do input e faça uma requisição utilizando a função do arquivo `searchAlbumsAPIs.js`. Lembre-se que essa função espera receber uma string com o nome da banda ou artista.
@@ -193,6 +197,7 @@ Com a estrutura da tela de pesquisa criada, agora é hora de fazer uma requisiç
 
 
 #### 7. Crie a lista de músicas do álbum selecionado
+
 Agora que está tudo pronto, você poderá exibir a lista de músicas do álbum selecionado. Crie a lista dentro do componente `Album`, que é renderizado na rota `/album/:id`.
   
   * Ao entrar na página, faça uma requisição utilizando a função `getMusics` do arquivo `musicsAPI.js`. Lembre-se que essa função espera receber uma string com o id do álbum.
@@ -212,6 +217,7 @@ Agora que está tudo pronto, você poderá exibir a lista de músicas do álbum 
   ```
 
 #### 8. Crie o mecanismo para adicionar músicas na lista de músicas favoritas
+
 Você já consegue listar as músicas dos álbuns, nessa etapa você poderá marcar quais são as músicas que você mais gosta.
 
   * No componente `MusicCard`, crie um input do tipo `checkbox` para marcar as músicas favoritas. Esse input deve conter uma `label`, e a `label` deve ter o atributo ```data-testid={`checkbox-music-${trackId}`}```, onde `trackId` é a propriedade `trackId` do objeto recebido pela API.
@@ -226,6 +232,7 @@ Você já consegue listar as músicas dos álbuns, nessa etapa você poderá mar
 
 
 #### 9. Crie o mecanismo para remover músicas na lista de músicas favoritas
+
 Depois de listar e favoritar as músicas de um álbum, você também deve poder remover uma música da lista de favoritas.
 
   * Ao clicar em uma música que já está marcada como favorita, ela deve ser removida da lista de músicas favoritas. Para isso você deve usar a função `removeSong` da `favoriteSongsAPI`. Essa API espera receber um objeto no mesmo formato que foi passado anteriormente para a função `addSong`.
@@ -234,6 +241,7 @@ Depois de listar e favoritar as músicas de um álbum, você também deve poder 
 
 
 #### 10. Crie a lista de músicas favoritas
+
 Crie a lista dentro do componente `Favorites`, que é renderizado na rota `/favorites`.
 
   * Ao entrar na página, utilize a função `getFavoriteSongs` da `favoriteSongsAPI` para recuperar a lista de músicas favoritas.
