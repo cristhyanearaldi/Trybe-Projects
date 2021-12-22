@@ -1,0 +1,29 @@
+.scheduler-border1 {
+  border: 1px solid rgb(17, 17, 17);
+  margin: 5% 10%;
+  padding: 0 1.4em 1.4em;
+}
+
+.scheduler-border2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-align: left;
+}
+
+.control-label {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.btn-checkout {
+  margin: 0 10%;
+}
+
+.checkout-products {
+  align-items: center;
+  display: flex;
+}
+
+.checkout-products img {
+  margin-right: 15px;
+}

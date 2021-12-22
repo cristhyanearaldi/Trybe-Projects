@@ -1,0 +1,108 @@
+.header-content, .productsCart {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+header {
+  background-color: #fff159;
+  height: 80px;
+  padding: 20px;
+}
+
+.header-content {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartTitle {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 430px;
+}
+
+.body {
+  background-color: #eee;
+}
+
+.emptyCart {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 38%;
+}
+
+.productsCart {
+  background-color: white;
+  height: 30%;
+  margin: auto;
+  margin-top: 30px;
+  padding-bottom: 60px;
+  width: 90%;
+}
+
+.productCart {
+  align-content: center;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid #d4d4d4;
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+  padding-top: 20px;
+  width: 90%;
+}
+
+.removeItemBtn {
+  all: unset;
+}
+
+.productTitle {
+  text-align: center;
+  width: 300px;
+}
+
+.handle-amount {
+  align-items: stretch;
+  display: flex;
+  width: 30%;
+}
+
+.amount-value {
+  background-color: white;
+  color: #212529;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 0.375rem 0.75rem;
+  text-align: center;
+  width: 100px;
+}
+
+.itemPrice {
+  align-self: baseline;
+  margin-left: 20px;
+}
+
+.checkoutPart {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 20px;
+  width: 40%;
+}
+
+footer {
+  background-color: #fff159;
+  bottom: 0;
+  font-size: 0.8em;
+  height: 75px;
+  margin-top: 500px;
+  padding-top: 25px;
+  position: static;
+  text-align: center;
+  width: 100%;
+}
