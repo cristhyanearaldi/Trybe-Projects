@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-login {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.form-login legend {
+  margin: 0 0 20px;
+}
+
+.field-login {
+  border-radius: 5px;
+  box-shadow: inset 1px 1px 5px #0c2b1a;
+  line-height: 1.7rem;
+  margin: 5px 37%;
+  max-width: 26%;
+  padding-left: 10px;
+}
+
+.btn-config {
+  box-shadow: inset 1px 1px 10px #0d1b27;
+  line-height: 1.6rem;
+  margin: 20px 42%;
+  width: 15%;
+}
+
+.img-login {
+  margin: 3% 44%;
+  max-width: 12%;
+}

@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.form-expenses {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  text-align: center;
+}
+
+.btn-config {
+  box-shadow: inset 1px 1px 10px #0d1b27;
+  line-height: 1.6rem;
+  margin: 20px 42%;
+  width: 15%;
+}
