@@ -22,23 +22,23 @@ Neste projeto desenvolveu-se uma carteira de controle de gastos com conversor de
 ### Requisitos do Projeto
 
 
-    - [Página de Login](#página-de-login)
+  - [Página de Login](#página-de-login)
       - [1. Crie uma página inicial de login com os seguintes campos e características:](#1-crie-uma-página-inicial-de-login-com-os-seguintes-campos-e-características)
       - [2. Realize as seguintes verificações nos campos de email, senha e botão:](#2-realize-as-seguintes-verificações-nos-campos-de-email-senha-e-botão)
       - [3. Utilize o Redux para salvar no estado global as informações da pessoa logada](#3-utilize-o-redux-para-salvar-no-estado-global-as-informações-da-pessoa-logada)
-    - [Página da Carteira](#página-da-carteira)
-    - [Configurando sua página](#configurando-sua-página)
+  - [Página da Carteira](#página-da-carteira)
+  - [Configurando sua página](#configurando-sua-página)
       - [4. Crie uma página para sua carteira com as seguintes características:](#4-crie-uma-página-para-sua-carteira-com-as-seguintes-características)
-    - [Header (cabeçalho)](#header-cabeçalho)
+  - [Header (cabeçalho)](#header-cabeçalho)
       - [5. Crie um header para a página de carteira contendo as seguintes características:](#5-crie-um-header-para-a-página-de-carteira-contendo-as-seguintes-características)
-    - [Formulário de adição de Despesa](#formulário-de-adição-de-despesa)
+  - [Formulário de adição de Despesa](#formulário-de-adição-de-despesa)
       - [6. Desenvolva um formulário para adicionar uma despesa contendo as seguintes características:](#6-desenvolva-um-formulário-para-adicionar-uma-despesa-contendo-as-seguintes-características)
       - [7. Implemente a lógica para preencher as opções do campo "Moedas", buscando as siglas das moedas da API:](#7-implemente-a-lógica-para-preencher-as-opções-do-campo-moedas-buscando-as-siglas-das-moedas-da-api)
       - [8. Desenvolva a opção de "Adicionar despesa" na sua tabela de gastos](#8-desenvolva-a-opção-de-adicionar-despesa-na-sua-tabela-de-gastos)
-    - [Tabela de Gastos](#tabela-de-gastos)
+  - [Tabela de Gastos](#tabela-de-gastos)
       - [9. Desenvolva uma tabela com os gastos contendo as seguintes características:](#9-desenvolva-uma-tabela-com-os-gastos-contendo-as-seguintes-características)
       - [10. Crie um botão para deletar uma despesa da tabela contendo as seguintes características:](#10-crie-um-botão-para-deletar-uma-despesa-da-tabela-contendo-as-seguintes-características)
-    - [Bônus](#bônus)
+  - [Bônus](#bônus)
       - [11. Crie um botão para editar uma despesa da tabela contendo as seguintes características:](#11-crie-um-botão-para-editar-uma-despesa-da-tabela-contendo-as-seguintes-características)
 
 
