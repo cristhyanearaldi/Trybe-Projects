@@ -272,9 +272,7 @@ Caso ela seja `true`, a API ativará o modo "Mundo Invertido", conforme a série
 
 ### Frontend
 
-O frontend consiste em um projeto simples utilizando React, que renderizará o seguinte layout:
-
-<img src="assets/frontend.png" width="800px" >
+O frontend consiste em um projeto simples utilizando React.
 
 Trata-se de um frontend bem simples que vai se comunicar com a nossa API. Ele possui as seguintes funcionalidades:
 
