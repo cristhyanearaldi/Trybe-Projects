@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+challenges/challenge_anagrams.py
+challenges/challenge_find_the_duplicate.py
+challenges/challenge_palindromes_iterative.py
+challenges/challenge_palindromes_recursive.py
+challenges/challenge_study_schedule.py
+project_algorithms.egg-info/PKG-INFO
+project_algorithms.egg-info/SOURCES.txt
+project_algorithms.egg-info/dependency_links.txt
+project_algorithms.egg-info/top_level.txt
